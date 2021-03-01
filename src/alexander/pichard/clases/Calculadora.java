@@ -1,5 +1,12 @@
 package alexander.pichard.clases;
-
+/*
+ * @Tittle Simple Calculadora Java
+ * 
+ * @Author Alexander Pichard
+ * 
+ * @Version 1.0.0
+ * 
+ */
 	
 	import java.util.Scanner; // Importación de la clase Scanner.
 
@@ -11,14 +18,8 @@ package alexander.pichard.clases;
 	        boolean comprobar = false;
 	 
 	        do{
-	            //Verificación de los datos puestos por el usuario del número 1.
-	            /* Con matches, hay una condición de que dígitos primero puede
-	            poner el usuario, en la condicional tenemos primero que solo se admite los caracteres '+' y '-', 
-	            pero con la condición de que sea una sola vez o ninguna vez. 
-	            Después tenemos que se admiten cualquier número del 0 al 9 y que se ponga o 0 veces o más veces,
-	             es decir, se pone algo o no se pone nada. 
-	             Mas otra condición de que solo admite el carácter '.' una o ninguna vez. Seguido del punto,
-	              si es que se coloca, se admite cualquier número del 0 al 9 que sea una o más veces.*/
+	            
+	           
 	            String numero1;
 	            do {
 	                System.out.println("\n Por favor, dime el primer número de la operación. ");
